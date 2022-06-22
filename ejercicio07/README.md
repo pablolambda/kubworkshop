@@ -43,3 +43,5 @@ Respuestas:
 ....... `environment:` entorno específico del contenedor
 
 ........... `POSTGRES_PASSWORD: Passw0rd!`
+
+- Los contenedores se "ven" entre sí por que la db está declarada en `links`
